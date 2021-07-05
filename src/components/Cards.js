@@ -18,8 +18,8 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={process.env.PUBLIC_URL + '/kisspng-beer-brewing-grains-malts-india-pale-ale-bitter-underdog-5b3160d5c657c4.2574535915299627098124.jpg'}
+          title="BrewDog Logo"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -35,7 +35,7 @@ export default function MediaCard() {
           Open Site
         </Button>
         <Button size="small" color="primary">
-          GitHub
+          <a href = "https://github.com/rickySONZ/BrewDog_frontend">GitHub</a>
         </Button>
       </CardActions>
     </Card>
@@ -44,8 +44,8 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={process.env.PUBLIC_URL + '/spotifake_in_circles.jpg'}
+          title="Spotifake Logo"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -58,10 +58,10 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Open Site
+          <a href = "https://spotifakeapp.netlify.app/">Open Site</a>
         </Button>
         <Button size="small" color="primary">
-          GitHub
+          <a href="https://github.com/rickySONZ/spotifake_frontend">GitHub</a>
         </Button>
       </CardActions>
     </Card>
