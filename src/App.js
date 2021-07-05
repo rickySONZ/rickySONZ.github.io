@@ -7,6 +7,9 @@ import NavBar from './components/NavBar'
 import Cards from './components/Cards'
 import { makeStyles, Paper, Tab, Tabs } from '@material-ui/core';
 import {Link} from 'react-router-dom'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import Stack from './components/Stack';
+import Contact from './components/Contact'
 
 const useStyles = makeStyles({
   root: {
@@ -30,18 +33,15 @@ function App() {
           <Fragment>
             <Tabs value={location.pathname} centered>
               <Tab label="About" value="/" component={Link} to="/about" />
-              <Tab label="View My Work" value="/tab2" component={Link} to="/portfolio" />
-              <Tab
-                value="/tab3"
-                label="Contact"
-                component={Link}
-                to="/contact"
-              />
+              <Tab label="View My Work" value="/portfolio" component={Link} to="/portfolio" />
+              <Tab label="My Stack"v value="/stack" component={Link} to="/stack" />
+              <Tab value="/contact" label="Contact" component={Link} to="/contact" />
             </Tabs>
             <Switch>
               <Route path="/about"component={About} />
               <Route path="/portfolio" component={Cards} />
-              <Route path="/contact" component={Home}/>
+              <Route path="/stack" component = {Stack} />
+              <Route path="/contact" component={Contact}/>
             </Switch>
           </Fragment>
         )}
