@@ -61,11 +61,7 @@ a {
   position:fixed;
   height: 85vh;
   padding: 5%;
-  opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1.5s;
+  bottom: 3%;
   position: relative;
 }
 @keyframes fadeInOpacity {
@@ -81,13 +77,19 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
 }
 .about-section p {
   grid-column: 2/3;
   color: white;
 }
-span {
+.nav-link span {
   color: white;
+  font-weight: 900;
 }
 
 p {
@@ -108,6 +110,11 @@ p {
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
   height: 100vh;
+
+}
+
+.contact-div a {
+  color: white;
 }
 
 .contact-div h1 {
@@ -123,9 +130,20 @@ p {
 
 .profile-image {
   grid-column: 1/2;
-  width: 90%;
   justify-self:center;
+  height: 85vh;
+  min-height: 20px;
+  padding: 2%;
+  max-width: 90%;
+}
 
+img.contact-photo {
+  grid-column: 1/2;
+  justify-self: center;
+  min-height: 20px;
+  height: 85vh;
+  
+  box-shadow: 0 0 8px 8px #fff inset;
 }
 
 .portfolio {
@@ -142,6 +160,5 @@ svg {
 }
 
 .MuiPaper-root {
-  padding: 5%;
   margin: 5%;
 }

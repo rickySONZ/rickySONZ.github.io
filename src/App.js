@@ -31,9 +31,9 @@ function App() {
         render={({ location }) => (
           <Fragment>
             <Tabs value={location.pathname} centered>
-              <Tab label="About" value="/" component={Link} to="/about" />
-              <Tab label="View My Work" value="/portfolio" component={Link} to="/portfolio" />
-              <Tab value="/contact" label="Contact" component={Link} to="/contact" />
+              <Tab label="RYAN ERRICSON" value="/" component={Link} to="/about" className="nav-link" />
+              <Tab label="View My Work" value="/portfolio" component={Link} to="/portfolio"  className="nav-link" />
+              <Tab value="/contact" label="Contact ME" component={Link} to="/contact"  className="nav-link" />
             </Tabs>
             <Switch>
               <Route path="/about"component={About} />
