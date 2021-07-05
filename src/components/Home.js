@@ -6,9 +6,8 @@ import About from './About';
 const Home = () => {
     return (
         <div className="home">
-            <NavBar />
-            <About/>
-            <Cards />
+          
+            
         </div>
     );
 }

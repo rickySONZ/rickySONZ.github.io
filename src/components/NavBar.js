@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import { Link } from 'react-router-dom';
+import Cards from './Cards'
+
 
 const useStyles = makeStyles({
   root: {
@@ -30,8 +33,8 @@ export default function CenteredTabs() {
         variant="scorllable"
         scorllButtons="auto"
       >
-        <Tab label="ABOUT" to="/about"/>
-        <Tab label="PORTFOLIO" />
+        <Tab label="ABOUT" value="/about" to="/about" containerElement={<Link to="/about" />}><Cards/></Tab>>/Tab>
+        <Tab label="PORTFOLIO"  value="/portfolio" containerElement={<Link to="/portfolio" />}></Tab>
         <Tab label="CONTACT" />
       </Tabs>
     </Paper>
