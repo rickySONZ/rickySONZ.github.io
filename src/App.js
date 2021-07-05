@@ -8,8 +8,8 @@ import Cards from './components/Cards'
 import { makeStyles, Paper, Tab, Tabs } from '@material-ui/core';
 import {Link} from 'react-router-dom'
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Stack from './components/Stack';
 import Contact from './components/Contact'
+import Background from './images/78a1e442740e0b3e692e36a31d98014d.webp'
 
 const useStyles = makeStyles({
   root: {
@@ -34,13 +34,11 @@ function App() {
             <Tabs value={location.pathname} centered>
               <Tab label="About" value="/" component={Link} to="/about" />
               <Tab label="View My Work" value="/portfolio" component={Link} to="/portfolio" />
-              <Tab label="My Stack"v value="/stack" component={Link} to="/stack" />
               <Tab value="/contact" label="Contact" component={Link} to="/contact" />
             </Tabs>
             <Switch>
               <Route path="/about"component={About} />
-              <Route path="/portfolio" component={Cards} />
-              <Route path="/stack" component = {Stack} />
+              <Route path="/portfolio" component={Home} />
               <Route path="/contact" component={Contact}/>
             </Switch>
           </Fragment>
