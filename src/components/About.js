@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className="about-section">
-        <img src={process.env.PUBLIC_URL + '/60397961_2369357173334193_4547110996153466880_n.jpg'}  className="profile-image"/>
+        <img src={process.env.PUBLIC_URL + '/linkedin_pic_21.png'}  className="profile-image"/>
         <div className="icon-div">
             <h1>Active Learner, <br/>Full Stack Engineer</h1>
             <p>Hello, and welcome to my site. I am a full stack engineer who currently specializes in React JS.
