@@ -5,7 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow:hidden;
+  background-image: url('./images/photo-1557626204-59dd03fd2d31.jpeg');
+  background-size: 100% 100%;                      
+   display: grid;
+  overflow: hidden;
+  height: 100%;
+   
 }
 
 code {

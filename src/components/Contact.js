@@ -11,12 +11,14 @@ const Contact = () => {
         <div className="contact-div">
         <div className="sidebar">
         <h1>Ryan Erricson</h1>
-        <p>Feel free to contact me at any of the links posted below. I am currently looking for </p>
-            <a href="https://github.com/rickySONZ"><GitHubIcon /></a>
+        <a href="https://github.com/rickySONZ"><GitHubIcon /></a>
             <a href="https://www.linkedin.com/in/ryan-erricson-992890113/"><LinkedInIcon /></a>
             <a href="https://www.facebook.com/ryan.erricson"><FacebookIcon /></a>
             <a href="https://dev.to/rickysonz"><BookIcon /></a>
-           <a href='mailto: ryanerricson@gmail.com'><EmailIcon /></a></div>
+           <a href='mailto: ryanerricson@gmail.com'><EmailIcon /></a>
+        <p>Feel free to contact me at any of the links posted above. I am currently looking for 
+        a position either remotely or in the greater Boston Area.</p>
+        </div>
         </div>
     );
 }

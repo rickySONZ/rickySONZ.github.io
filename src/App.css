@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   display: grid;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -56,28 +57,91 @@ a {
 }
 .icon-div{
   grid-column: 2/3;
-  overflow-y: hidden;
+  overflow-y: scroll;
+  position:fixed;
+  height: 85vh;
   padding: 5%;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+  position: relative;
 }
+@keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .about-section{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100vh;
 }
 .about-section p {
   grid-column: 2/3;
+  color: white;
+}
+span {
+  color: white;
 }
 
-.about-section h1, h2, h3, h4, h5 {
+p {
+  color: white;
+}
+
+.about-section h1, h3, h4, h5 {
   grid-column: 2/3;
+  color: white;
 }
 
 .contact-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+  height: 100vh;
+}
+
+.contact-div h1 {
+  color: white;
 }
 
 .sidebar {
   grid-column: 2/3;
   padding: 5%;
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.profile-image {
+  grid-column: 1/2;
+  width: 90%;
+  justify-self:center;
+
+}
+
+.portfolio {
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+  height: 100vh;
+}
+
+svg {
+  color:white;
+}
+
+.MuiPaper-root {
+  padding: 5%;
+  margin: 5%;
 }
