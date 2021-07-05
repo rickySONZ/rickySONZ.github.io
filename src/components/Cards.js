@@ -65,6 +65,32 @@ export default function MediaCard() {
         </Button>
       </CardActions>
     </Card>
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={process.env.PUBLIC_URL + '/usain_git.png'}
+          title="Spotifake Logo"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+           GitJobs
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            Spotifake is a mock version of Spotify's library, allowing users to update their library and play songs. Javascript front end with a Ruby on Rails back end.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          <a href = "https://gitjobs2.herokuapp.com/login">Open Site</a>
+        </Button>
+        <Button size="small" color="primary">
+          <a href="https://github.com/rickySONZ/GitJobs">GitHub</a>
+        </Button>
+      </CardActions>
+    </Card>
     </ div>
   );
 }
