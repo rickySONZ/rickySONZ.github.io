@@ -27,8 +27,10 @@ export default function CenteredTabs() {
         indicatorColor="primary"
         textColor="primary"
         centered
+        variant="scorllable"
+        scorllButtons="auto"
       >
-        <Tab label="ABOUT" />
+        <Tab label="ABOUT" to="/about"/>
         <Tab label="PORTFOLIO" />
         <Tab label="CONTACT" />
       </Tabs>
