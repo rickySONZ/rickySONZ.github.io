@@ -44,11 +44,22 @@ a {
   text-decoration: none;
 } 
 .cards-container {
-  grid-column: 2/3;
+  grid-column: 1/-1;
   margin: 3% auto;
-  
+  justify-content: center;
   justify-self: center;
+  justify-items: center;
+  padding: 2%;
   
+}
+
+.cards-container div {
+  justify-self: center;
+  grid-column: 2/3;
+  margin: auto;
+}
+.Carousel-root-8 {
+  justify-self: center;
 }
 
 .about-section i {

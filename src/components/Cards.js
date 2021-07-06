@@ -14,9 +14,9 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-      <div className = "cards-container">
+      <div className = "cards-container" style={{alignItems: "center", justifySelf: "center"}}>
       <Carousel>
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{alignItems: "center", justifySelf: "center", gridColumn: '2/3'}}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
