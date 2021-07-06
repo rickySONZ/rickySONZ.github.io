@@ -166,6 +166,7 @@ img.contact-photo {
 	animation-duration: 1.5s;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
+  overflow-y: scroll;
 }
 
 svg {

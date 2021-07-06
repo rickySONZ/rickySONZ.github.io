@@ -1,5 +1,6 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, makeStyles, Typography } from "@material-ui/core";
 import Carousel from "react-material-ui-carousel";
+import LanguagesAccordion from "./LanguagesAccordion";
 
 const useStyles = makeStyles({
   root: {
@@ -94,6 +95,7 @@ export default function MediaCard() {
       </CardActions>
     </Card>
     </Carousel>
+    <LanguagesAccordion />
     </ div>
   );
 }
