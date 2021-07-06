@@ -1,4 +1,5 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, makeStyles, Typography } from "@material-ui/core";
+import Carousel from "react-material-ui-carousel";
 
 const useStyles = makeStyles({
   root: {
@@ -14,6 +15,7 @@ export default function MediaCard() {
 
   return (
       <div className = "cards-container">
+      <Carousel>
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -91,6 +93,7 @@ export default function MediaCard() {
         </Button>
       </CardActions>
     </Card>
+    </Carousel>
     </ div>
   );
 }

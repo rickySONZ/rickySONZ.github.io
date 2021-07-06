@@ -44,9 +44,10 @@ a {
   text-decoration: none;
 } 
 .cards-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 2/3;
   margin: 3% auto;
+  
+  justify-self: center;
   
 }
 
@@ -153,6 +154,7 @@ img.contact-photo {
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
   height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 svg {
@@ -163,6 +165,3 @@ svg {
   margin: 5%;
 }
 
-.bottom-nav-icon svg{
-  color: navy;
-}
