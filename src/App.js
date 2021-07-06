@@ -4,11 +4,12 @@ import Home from './components/Home';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import About from './components/About';
 import Cards from './components/Cards'
-import { makeStyles, Paper, Tab, Tabs } from '@material-ui/core';
+import { makeStyles, Tab, Tabs } from '@material-ui/core';
 import {Link} from 'react-router-dom'
-import GitHubIcon from '@material-ui/icons/GitHub';
 import Contact from './components/Contact'
-import Background from './images/78a1e442740e0b3e692e36a31d98014d.webp'
+import BottomNav from './components/BottomNav';
+
+
 
 const useStyles = makeStyles({
   root: {
@@ -40,9 +41,11 @@ function App() {
               <Route path="/portfolio" component={Home} />
               <Route path="/contact" component={Contact}/>
             </Switch>
+            <BottomNav />
           </Fragment>
         )}
       />
+   
     </div>
   </Router>
   );

@@ -76,7 +76,7 @@ a {
 .about-section{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  height: 88vh;
   opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
@@ -109,7 +109,7 @@ p {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
-  height: 100vh;
+  height: 85vh;
 
 }
 
@@ -131,7 +131,7 @@ p {
 .profile-image {
   grid-column: 1/2;
   justify-self:center;
-  height: 80%;
+  height: 75%;
   min-height: 20px;
   padding: 2%;
   max-width: 90%;
@@ -141,7 +141,7 @@ img.contact-photo {
   grid-column: 1/2;
   justify-self: center;
   min-height: 20px;
-  height: 85vh;
+  height: 70vh;
   
   box-shadow: 0 0 8px 8px #fff inset;
 }
@@ -161,4 +161,8 @@ svg {
 
 .MuiPaper-root {
   margin: 5%;
+}
+
+.bottom-nav-icon svg{
+  color: navy;
 }

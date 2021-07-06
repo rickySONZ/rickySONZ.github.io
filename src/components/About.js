@@ -10,10 +10,7 @@ const About = () => {
             Recent code junkie and lifelong coffee junkie, I have recently graduated </p>
              <br/>
              <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
+            
      
 
              <p>hi</p>
