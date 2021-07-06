@@ -71,10 +71,13 @@ a {
   grid-column: 2/3;
   overflow-y: scroll;
   position:fixed;
-  height: 85vh;
-  padding: 5%;
-  bottom: 3%;
+  height: 82%;
+  right: 3%;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2%;
+border-radius: 15px;
+-moz-border-radius: 15px;
 }
 @keyframes fadeInOpacity {
     0% {
@@ -137,7 +140,13 @@ p {
   grid-column: 2/3;
   padding: 5%;
   overflow-y: scroll;
-  height: 90vh;
+  position: relative;
+  right: 2%;
+  height: 85%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2%;
+border-radius: 15px;
+-moz-border-radius: 15px;
 }
 
 .profile-image {
@@ -145,7 +154,7 @@ p {
   justify-self:center;
   height: 75%;
   min-height: 20px;
-  padding: 2%;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.7);
   max-width: 90%;
 }
 
@@ -154,8 +163,8 @@ img.contact-photo {
   justify-self: center;
   min-height: 20px;
   height: 70vh;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.7);
   
-  box-shadow: 0 0 8px 8px #fff inset;
 }
 
 .portfolio {
@@ -164,7 +173,7 @@ img.contact-photo {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
-  height: 100vh;
+  height: 80vh;
   grid-template-columns: 1fr 1fr 1fr;
   overflow-y: scroll;
 }
@@ -175,5 +184,14 @@ svg {
 
 .MuiPaper-root {
   margin: 5%;
+}
+
+.accordion-div {
+  text-align: center;
+}
+
+.portfolio i {
+  font-size: 60px;
+  padding: 5%;
 }
 
