@@ -22,11 +22,14 @@ export default function BottomNav() {
   };
 
   return (
+      <div className="bottom-nav-div">
     <BottomNavigation value={value}  onChange={handleChange} className={classes.root} style={{width: '100%', height: '40px', bottom: '0', position: 'fixed', backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
       <BottomNavigationAction label="Email Me!" value="email" href='mailto: ryanerricson@gmail.com' className = "bottom-nav-icon" icon={<EmailIcon />} />
       <BottomNavigationAction label="My Github" value="github" href="https://github.com/rickySONZ" className = "bottom-nav-icon" icon={<GitHubIcon />} />
       <BottomNavigationAction label="My Blogs" value="blog" href="https://dev.to/rickysonz" className = "bottom-nav-icon" icon={<BookIcon />} />
       <BottomNavigationAction label="My LinkedIn" value="folder" href="https://www.linkedin.com/in/ryan-erricson-992890113/" className = "bottom-nav-icon" icon={<LinkedInIcon />} />
+      <p >Site by Ryan Erricson</p> 
     </BottomNavigation>
+    </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, makeStyles, Typography } from "@material-ui/core";
 import Carousel from "react-material-ui-carousel";
-import LanguagesAccordion from "./LanguagesAccordion";
+import Icons from "./Icons";
+
 
 const useStyles = makeStyles({
   root: {
@@ -18,7 +19,7 @@ export default function MediaCard() {
       <div className = "cards-container" style={{alignItems: "center", justifySelf: "center"}}>
       <Carousel>
     <Card className={classes.root} style={{alignItems: "center", justifySelf: "center", gridColumn: '2/3'}}>
-      <CardActionArea>
+      <CardActionArea href="https://brewdog-frontend.netlify.app/" target = "_blank">
         <CardMedia
           className={classes.media}
           image={process.env.PUBLIC_URL + '/kisspng-beer-brewing-grains-malts-india-pale-ale-bitter-underdog-5b3160d5c657c4.2574535915299627098124.jpg'}
@@ -35,16 +36,13 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Open Site
-        </Button>
-        <Button size="small" color="primary">
-          <a href = "https://github.com/rickySONZ/BrewDog_frontend">GitHub</a>
+          <a href = "https://github.com/rickySONZ/BrewDog_frontend" target = "_blank">GitHub</a>
         </Button>
       </CardActions>
     </Card>
 
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea href="https://spotifakeapp.netlify.app/" target="_blank">
         <CardMedia
           className={classes.media}
           image={process.env.PUBLIC_URL + '/spotifake_in_circles.jpg'}
@@ -61,16 +59,13 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <a href = "https://spotifakeapp.netlify.app/">Open Site</a>
-        </Button>
-        <Button size="small" color="primary">
-          <a href="https://github.com/rickySONZ/spotifake_frontend">GitHub</a>
+          <a href="https://github.com/rickySONZ/spotifake_frontend" target = "_blank">GitHub</a>
         </Button>
       </CardActions>
     </Card>
 
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea href = "https://gitjobs2.herokuapp.com/login" target = "_blank">
         <CardMedia
           className={classes.media}
           image={process.env.PUBLIC_URL + '/usain_git.png'}
@@ -87,15 +82,12 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <a href = "https://gitjobs2.herokuapp.com/login">Open Site</a>
-        </Button>
-        <Button size="small" color="primary">
-          <a href="https://github.com/rickySONZ/GitJobs">GitHub</a>
+          <a href="https://github.com/rickySONZ/GitJobs" target = "_blank">GitHub</a>
         </Button>
       </CardActions>
     </Card>
     </Carousel>
-    <LanguagesAccordion />
+    <Icons />
     </ div>
   );
 }

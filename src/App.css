@@ -70,8 +70,8 @@ a {
 .icon-div{
   grid-column: 2/3;
   overflow-y: scroll;
-  position:fixed;
-  height: 82%;
+  margin: auto;
+  height: auto;
   right: 3%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
@@ -116,6 +116,9 @@ p {
   color: white;
 }
 
+.portfolio h1 {
+  color: white;
+}
 .contact-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -138,33 +141,37 @@ p {
 
 .sidebar {
   grid-column: 2/3;
-  padding: 5%;
   overflow-y: scroll;
   position: relative;
+  margin: auto;
   right: 2%;
-  height: 85%;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 2%;
 border-radius: 15px;
 -moz-border-radius: 15px;
 }
 
-.profile-image {
+img.profile-image {
   grid-column: 1/2;
   justify-self:center;
-  height: 75%;
-  min-height: 20px;
+  align-items: center;
+  height: 80%;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.7);
-  max-width: 90%;
+  max-width:80%;
+  height:auto;
+  bottom: 5%;
+  margin: auto;
 }
 
 img.contact-photo {
   grid-column: 1/2;
   justify-self: center;
-  min-height: 20px;
-  height: 70vh;
+  max-width:80%;
+  height:auto;
+  max-height: 70%;
+  margin: auto;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.7);
-  
 }
 
 .portfolio {
@@ -173,9 +180,10 @@ img.contact-photo {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
-  height: 80vh;
+  height: 85vh;
   grid-template-columns: 1fr 1fr 1fr;
   overflow-y: scroll;
+  position: relative;
 }
 
 svg {
@@ -195,3 +203,7 @@ svg {
   padding: 5%;
 }
 
+.bottom-nav-div p {
+  font-size: 10px;
+  padding-right: 3%;
+}

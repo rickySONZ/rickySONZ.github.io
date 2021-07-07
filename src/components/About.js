@@ -14,7 +14,7 @@ const About = () => {
      
 
              <p>hi</p>
-             <h3>Check Out My Stack!</h3>
+             
              <i class="devicon-react-original-wordmark colored"></i>
             <i class="devicon-javascript-plain colored"></i>
           <i class="devicon-ruby-plain colored"></i><br />

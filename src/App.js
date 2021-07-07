@@ -40,6 +40,7 @@ function App() {
               <Route path="/about"component={About} />
               <Route path="/portfolio" component={Home} />
               <Route path="/contact" component={Contact}/>
+              <Route path="/" component={About} />
             </Switch>
             <BottomNav />
           </Fragment>
