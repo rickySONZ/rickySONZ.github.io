@@ -44,7 +44,7 @@ a {
   text-decoration: none;
 } 
 .cards-container {
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
   margin: 3% auto;
   justify-content: center;
   justify-self: center;
@@ -55,7 +55,7 @@ a {
 
 .cards-container div {
   justify-self: center;
-  grid-column: 2/3;
+  
   margin: auto;
 }
 .Carousel-root-8 {
@@ -76,7 +76,7 @@ a {
   right: 3%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 2%;
+  padding: 5%;
 border-radius: 15px;
 -moz-border-radius: 15px;
 }
@@ -148,7 +148,7 @@ p {
   right: 3%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 2%;
+  padding: 5%;
 border-radius: 15px;
 -moz-border-radius: 15px;
 max-height: 75%;
@@ -192,13 +192,6 @@ svg {
   color:white;
 }
 
-.MuiPaper-root {
-  margin: 5%;
-}
-
-.accordion-div {
-  text-align: center;
-}
 
 .portfolio i {
   font-size: 60px;
@@ -212,4 +205,8 @@ svg {
 
 .bottom-nav-div span {
   color: white;
+}
+
+.Carousel-next-18 {
+  grid-column-start: 2;
 }

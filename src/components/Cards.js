@@ -17,7 +17,11 @@ export default function MediaCard() {
 
   return (
       <div className = "cards-container" style={{alignItems: "center", justifySelf: "center"}}>
-      <Carousel>
+      <Carousel activeIndicatorIconButtonProps={{
+        style: {
+            backgroundColor: '#f54d3b' 
+        }
+    }}>
     <Card className={classes.root} style={{alignItems: "center", justifySelf: "center", gridColumn: '2/3'}}>
       <CardActionArea href="https://brewdog-frontend.netlify.app/" target="_blank" rel="noreferrer" >
         <CardMedia

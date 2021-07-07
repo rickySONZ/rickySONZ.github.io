@@ -18,9 +18,9 @@ const Contact = () => {
             <a href="https://dev.to/rickysonz" target="_blank" rel="noreferrer"><BookIcon /></a>
            <a href='mailto: ryanerricson@gmail.com'><EmailIcon /></a>
         <p>Feel free to contact me at any of the links posted above or below. I am currently looking for 
-        a position either remotely or in the greater Boston Area. If you would like to reach out to me considering project collaborations,
-        future work opportunities, or to talk about code, I am more than open to it! My primary languages are Ruby and javascript
-        but I would love opportunities to break out of my comfort zone!</p><br>
+        a position either remotely or in the greater Boston Area, with a forward thinking and open minded company. If you would like to reach out to me considering project collaborations,
+        future work opportunities, or to talk about code, I am more than open to it! My primary languages are Ruby and Javascript
+        but welcome opportunities to break out of my comfort zone!</p><br>
         </br>
         <a href='mailto: ryanerricson@gmail.com'><EmailIcon /> Email Me Directly!</a><br/>
         <a href="https://github.com/rickySONZ" target="_blank" rel="noreferrer"><GitHubIcon /> Check Out My GitHub</a><br/>
