@@ -24,7 +24,7 @@ function App() {
     setValue(newValue);
   };
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Route
         path="/"
