@@ -1,6 +1,5 @@
 import React from 'react';
 import Cards from './Cards'
-import About from './About';
 
 const Home = () => {
     return (

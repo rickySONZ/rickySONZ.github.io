@@ -3,7 +3,6 @@ import './App.css';
 import Home from './components/Home';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import About from './components/About';
-import Cards from './components/Cards'
 import { makeStyles, Tab, Tabs } from '@material-ui/core';
 import {Link} from 'react-router-dom'
 import Contact from './components/Contact'
