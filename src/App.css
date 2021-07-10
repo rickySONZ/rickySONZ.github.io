@@ -218,11 +218,33 @@ svg {
     padding-top: 3%;
     padding-bottom: 8%;
   }
+
+  .contact-div {
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow-y: auto;
+    padding-top: 3%;
+    
+  }
+
+  .sidebar {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    height: 30vh;
+    right: 0%;
+    overflow-y: scroll;
+  }
   img.profile-image{
     grid-row: 1/2;
     grid-column: 1/-1;
     height: 25vh;
     margin: auto 3%;
+  }
+
+  img.contact-photo {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    height: 35vh;
+    
   }
   .icon-div {
     grid-row: 2/3;
@@ -239,4 +261,6 @@ svg {
     padding: 2%;
     min-width: 50px;
   }
+
+  
 }

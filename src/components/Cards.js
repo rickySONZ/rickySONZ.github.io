@@ -91,7 +91,9 @@ export default function MediaCard() {
       </CardActions>
     </Card>
     </Carousel>
+    <div id="cards-icons">
     <Icons />
+    </div>
     </ div>
   );
 }
