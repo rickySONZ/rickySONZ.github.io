@@ -262,5 +262,9 @@ svg {
     min-width: 50px;
   }
 
+  .cards-container {
+    padding-bottom: 13%;
+  }
+
   
 }
