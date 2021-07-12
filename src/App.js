@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import './App.css';
 import Home from './components/Home';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 import About from './components/About';
 import { makeStyles, Tab, Tabs } from '@material-ui/core';
 import {Link} from 'react-router-dom'
@@ -24,7 +24,7 @@ function App() {
     setValue(newValue);
   };
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
     <div className="App">
       <Route
         path="/"
