@@ -1,5 +1,6 @@
 import React from 'react';
 import Icons from './Icons'
+import AssignmentIcon from '@material-ui/icons/Assignment'
 
 const About = () => {
     return (
