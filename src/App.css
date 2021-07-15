@@ -80,7 +80,7 @@ a {
   max-height: 75%;
   right: 3%;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 5%;
 border-radius: 15px;
 -moz-border-radius: 15px;
@@ -152,7 +152,7 @@ p {
   height: 75%;
   right: 3%;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 5%;
 border-radius: 15px;
 -moz-border-radius: 15px;
