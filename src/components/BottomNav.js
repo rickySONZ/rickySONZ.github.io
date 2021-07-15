@@ -9,7 +9,7 @@ import { BottomNavigation, BottomNavigationAction, makeStyles } from '@material-
  
 const useStyles = makeStyles({
   root: {
-    width: 500,
+    width: 200,
   },
 });
 
@@ -28,7 +28,7 @@ export default function BottomNav() {
       <BottomNavigationAction label="My Resume" value="blog" href='https://docs.google.com/document/d/1ZjCeAa9b3zIcf_NtM4MHSYYGCDrMDpWAtaaE7U911tU/edit' target = "_blank" rel="noreferrer" className="bottom-nav-icon" icon={<AssignmentIcon />} />
       <BottomNavigationAction label="My Github" value="github" href="https://github.com/rickySONZ" target="_blank" rel="noreferrer" className ="bottom-nav-icon" icon={<GitHubIcon />} />
       <BottomNavigationAction label="My LinkedIn" value="folder" href="https://www.linkedin.com/in/ryan-erricson-992890113/" target="_blank" rel="noreferrer" className="bottom-nav-icon" icon={<LinkedInIcon />} />
-      <p >Site by Ryan Erricson</p> 
+      <p id="signature">Site by Ryan Erricson</p> 
     </BottomNavigation>
     </div>
   );

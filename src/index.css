@@ -10,6 +10,8 @@ body {
    display: grid;
   overflow: hidden;
   height: 100vh;
+  padding: env(safe-area-inset);
+ 
    
 }
 
