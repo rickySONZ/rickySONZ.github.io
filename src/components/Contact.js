@@ -12,7 +12,7 @@ const Contact = () => {
         <img src={process.env.PUBLIC_URL + '/210750700_546644596351347_4845502012161129932_n.jpeg'}  className="contact-photo" alt="Ryan Erricson Sitting On a Bench"/>
         <div className="sidebar">
         <h1>Ryan Erricson</h1>
-        <a href={process.env.PUBLIC_URL + "/Ryan Erricson Resume 7_12_2021.pdf"} target = "_blank" rel="noreferrer"><AssignmentIcon /></a>
+        <a href="https://docs.google.com/document/d/1ZjCeAa9b3zIcf_NtM4MHSYYGCDrMDpWAtaaE7U911tU/edit" target = "_blank" rel="noreferrer"><AssignmentIcon /></a>
         <a href="https://github.com/rickySONZ"><GitHubIcon /></a>
             <a href="https://www.linkedin.com/in/ryan-erricson-992890113/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
             <a href="https://www.facebook.com/ryan.erricson" target="_blank" rel="noreferrer"><FacebookIcon /></a>
