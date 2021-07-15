@@ -34,7 +34,7 @@ export default function MediaCard() {
            BrewDog
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Meet BrewDog, the best brewery finder online! AKA Man's Best Friend. ReactJS application, built with Ruby on Rails and ReduxJS.
+            Meet BrewDog, the best brewery finder online! AKA Man's Best Friend. Search breweries in your city and save them to your favoirtes! ReactJS application, built with Ruby on Rails on the back end and ReduxJS.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -80,7 +80,7 @@ export default function MediaCard() {
            GitJobs
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Spotifake is a mock version of Spotify's library, allowing users to update their library and play songs. Javascript front end with a Ruby on Rails back end.
+            GitJobs is a job service application that pulls from Github Jobs API. Indicate interest in companies and leave reviews if you have worked there in the past! Built with Ruby on Rails.
           </Typography>
         </CardContent>
       </CardActionArea>

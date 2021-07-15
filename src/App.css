@@ -148,8 +148,8 @@ p {
 .sidebar {
   grid-column: 2/3;
   overflow-y: scroll;
-  margin: auto 3%;
-  height: auto;
+  margin: auto 2%;
+  height: 75%;
   right: 3%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
