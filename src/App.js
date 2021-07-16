@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import './App.css';
 import Home from './components/Home';
 import { Route, HashRouter as Router, Switch } from 'react-router-dom';
@@ -7,7 +7,6 @@ import { makeStyles, Tab, Tabs } from '@material-ui/core';
 import {Link} from 'react-router-dom'
 import Contact from './components/Contact'
 import BottomNav from './components/BottomNav';
-
 
 
 const useStyles = makeStyles({
@@ -23,6 +22,10 @@ function App() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+  useEffect(() => {
+    window.scrollTo(0,1);
+    });
   return (
     <Router basename="/">
     <div className="App">

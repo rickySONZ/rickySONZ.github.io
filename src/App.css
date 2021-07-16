@@ -55,7 +55,7 @@ a {
   justify-self: center;
   justify-items: center;
   padding: 2%;
-  
+  padding-bottom: 5%;
 }
 
 .cards-container div {
@@ -88,13 +88,14 @@ border-radius: 15px;
 .sidebar {
   grid-column: 2/3;
   overflow-y: scroll;
-  margin: auto 3%;
-  height: 75%;
+  margin: auto 2%;
+  height: auto;
   align-items: center;
   right: 3%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
-
+  padding: 5%;
+  margin-top: 10px;
 border-radius: 15px;
 -moz-border-radius: 15px;
 max-height: 75%;
@@ -117,6 +118,18 @@ max-height: 75%;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
+}
+
+.contact-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+  height: 85vh;
+  
 }
 .about-section p {
   grid-column: 2/3;
@@ -142,17 +155,7 @@ p {
 .portfolio h1 {
   color: white;
 }
-.contact-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1.5s;
-  height: 85vh;
 
-}
 
 .contact-div a {
   color: white;
@@ -282,12 +285,12 @@ svg {
     width: 100%;
   }
 
-  .cards-container {
-    padding-bottom: 13%;
-  }
-
   p#signature {
     display: none;
+  }
+
+  .cards-container {
+    margin-bottom: 23%;
   }
   
 }
