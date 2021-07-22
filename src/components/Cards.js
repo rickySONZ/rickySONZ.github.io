@@ -16,84 +16,84 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-      <div className = "cards-container" style={{alignItems: "center", justifySelf: "center"}}>
+    <div className="cards-container" style={{ alignItems: "center", justifySelf: "center" }}>
       <Carousel activeIndicatorIconButtonProps={{
         style: {
-            backgroundColor: '#f54d3b' 
+          backgroundColor: '#f54d3b'
         }
-    }}>
-    <Card className={classes.root} style={{alignItems: "center", justifySelf: "center", gridColumn: '2/3'}}>
-      <CardActionArea href="https://brewdog-frontend.netlify.app/" target="_blank" rel="noreferrer" >
-        <CardMedia
-          className={classes.media}
-          image={process.env.PUBLIC_URL + '/kisspng-beer-brewing-grains-malts-india-pale-ale-bitter-underdog-5b3160d5c657c4.2574535915299627098124.jpg'}
-          title="BrewDog Logo"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-           BrewDog
+      }}>
+        <Card className={classes.root} style={{ alignItems: "center", justifySelf: "center", gridColumn: '2/3' }}>
+          <CardActionArea href="https://brewdog-frontend.netlify.app/" target="_blank" rel="noreferrer" >
+            <CardMedia
+              className={classes.media}
+              image={process.env.PUBLIC_URL + '/kisspng-beer-brewing-grains-malts-india-pale-ale-bitter-underdog-5b3160d5c657c4.2574535915299627098124.jpg'}
+              title="BrewDog Logo"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                BrewDog
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Meet BrewDog, the best brewery finder online! AKA Man's Best Friend. Search breweries in your city and save them to your favoirtes! ReactJS application, built with Ruby on Rails on the back end and ReduxJS.
+              <Typography variant="body2" color="textSecondary" component="p">
+                Meet BrewDog, the best brewery finder online! AKA Man's Best Friend. Search breweries in your city and save them to your favoirtes! ReactJS application, built with Ruby on Rails on the back end and ReduxJS.
           </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          <a href = "https://github.com/rickySONZ/BrewDog_frontend" target = "_blank" rel="noreferrer">GitHub</a>
-        </Button>
-      </CardActions>
-    </Card>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href="https://github.com/rickySONZ/BrewDog_frontend" target="_blank" rel="noreferrer">GitHub</a>
+            </Button>
+          </CardActions>
+        </Card>
 
-    <Card className={classes.root}>
-      <CardActionArea href="https://spotifakeapp.netlify.app/" target="_blank" rel="noreferrer">
-        <CardMedia
-          className={classes.media}
-          image={process.env.PUBLIC_URL + '/spotifake_in_circles.jpg'}
-          title="Spotifake Logo"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-           SpotiFake
+        <Card className={classes.root}>
+          <CardActionArea href="https://spotifakeapp.netlify.app/" target="_blank" rel="noreferrer">
+            <CardMedia
+              className={classes.media}
+              image={process.env.PUBLIC_URL + '/spotifake_in_circles.jpg'}
+              title="Spotifake Logo"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                SpotiFake
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Spotifake is a mock version of Spotify's library, allowing users to update their library and play songs. Javascript front end with a Ruby on Rails back end.
+              <Typography variant="body2" color="textSecondary" component="p">
+                Spotifake is a mock version of Spotify's library, allowing users to update their library and play songs. Javascript front end with a Ruby on Rails back end.
           </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          <a href="https://github.com/rickySONZ/spotifake_frontend" target = "_blank" rel="noreferrer">GitHub</a>
-        </Button>
-      </CardActions>
-    </Card>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href="https://github.com/rickySONZ/spotifake_frontend" target="_blank" rel="noreferrer">GitHub</a>
+            </Button>
+          </CardActions>
+        </Card>
 
-    <Card className={classes.root}>
-      <CardActionArea href = "https://gitjobs2.herokuapp.com/login" target = "_blank" rel="noreferrer">
-        <CardMedia
-          className={classes.media}
-          image={process.env.PUBLIC_URL + '/usain_git.png'}
-          title="Spotifake Logo"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-           GitJobs
+        <Card className={classes.root}>
+          <CardActionArea href="https://gitjobs2.herokuapp.com/login" target="_blank" rel="noreferrer">
+            <CardMedia
+              className={classes.media}
+              image={process.env.PUBLIC_URL + '/usain_git.png'}
+              title="Spotifake Logo"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                GitJobs
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            GitJobs is a job service application that pulls from Github Jobs API. Indicate interest in companies and leave reviews if you have worked there in the past! Built with Ruby on Rails.
+              <Typography variant="body2" color="textSecondary" component="p">
+                GitJobs is a job service application that pulls from Github Jobs API. Indicate interest in companies and leave reviews if you have worked there in the past! Built with Ruby on Rails.
           </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          <a href="https://github.com/rickySONZ/GitJobs" target = "_blank" rel="noreferrer">GitHub</a>
-        </Button>
-      </CardActions>
-    </Card>
-    </Carousel>
-    <div id="cards-icons">
-    <Icons />
-    </div>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href="https://github.com/rickySONZ/GitJobs" target="_blank" rel="noreferrer">GitHub</a>
+            </Button>
+          </CardActions>
+        </Card>
+      </Carousel>
+      <div id="cards-icons">
+        <Icons />
+      </div>
     </ div>
   );
 }
