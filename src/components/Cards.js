@@ -9,6 +9,7 @@ const useStyles = makeStyles({
   },
   media: {
     height: 140,
+    
   },
 });
 
@@ -26,8 +27,10 @@ export default function MediaCard() {
           <CardActionArea href="https://brewdog-frontend.netlify.app/" target="_blank" rel="noreferrer" >
             <CardMedia
               className={classes.media}
-              image={process.env.PUBLIC_URL + '/kisspng-beer-brewing-grains-malts-india-pale-ale-bitter-underdog-5b3160d5c657c4.2574535915299627098124.jpg'}
+              image={process.env.PUBLIC_URL + 'kisspng-beer-brewing-grains-malts-india-pale-ale-bitter-underdog-5b3160d5c657c4.2574535915299627098124.jpg'}
               title="BrewDog Logo"
+              color="inherit"
+
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
@@ -45,19 +48,20 @@ export default function MediaCard() {
           </CardActions>
         </Card>
 
+
         <Card className={classes.root}>
           <CardActionArea href="https://www.loom.com/share/ae32b2c14e004e6cb2c520a508f7362b" target="_blank" rel="noreferrer">
             <CardMedia
               className={classes.media}
               image={process.env.PUBLIC_URL + '/1200px-International_Pokémon_logo.svg.png'}
-              title="Spotifake Logo"
+              title="Pokemon Battle Royale"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
                 Pokemon Battle Royale
           </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Pokemon Battle Royale is an application that allows users to purchase Pokemon and battle an AI. Collaborated with other engineers for this project. Powered by ReactJS, ReduxJS, Ruby On Rails, Google Firebase and more!
+                Pokemon Battle Royale is an application that allows users to purchase Pokemon and battle an AI. Collaborated with other engineers for Powered by ReactJS, ReduxJS, Ruby On Rails, Google Firebase and more!
           </Typography>
             </CardContent>
           </CardActionArea>
@@ -95,8 +99,9 @@ export default function MediaCard() {
           <CardActionArea href="https://gitjobs2.herokuapp.com/login" target="_blank" rel="noreferrer">
             <CardMedia
               className={classes.media}
-              image={process.env.PUBLIC_URL + '/usain_git.png'}
-              title="Spotifake Logo"
+              image={process.env.PUBLIC_URL + "usain_git.png"}
+              title="GitJobs"
+              color="inherit"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">

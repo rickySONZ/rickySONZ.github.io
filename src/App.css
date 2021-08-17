@@ -198,6 +198,10 @@ img.contact-photo {
   position: relative;
 }
 
+div.MuiCardMedia-root img{
+  color: inherit;
+}
+
 svg {
   color:white;
 }
