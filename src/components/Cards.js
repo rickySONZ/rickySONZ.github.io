@@ -46,6 +46,29 @@ export default function MediaCard() {
         </Card>
 
         <Card className={classes.root}>
+          <CardActionArea href="https://www.loom.com/share/ae32b2c14e004e6cb2c520a508f7362b" target="_blank" rel="noreferrer">
+            <CardMedia
+              className={classes.media}
+              image={process.env.PUBLIC_URL + '/1200px-International_Pokémon_logo.svg.png'}
+              title="Spotifake Logo"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Pokemon Battle Royale
+          </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Pokemon Battle Royale is an application that allows users to purchase Pokemon and battle an AI. Collaborated with other engineers for this project. Powered by ReactJS, ReduxJS, Ruby On Rails, Google Firebase and more!
+          </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href="https://github.com/Bryanjazo/Pokemon-FrontEnd" target="_blank" rel="noreferrer">GitHub</a>
+            </Button>
+          </CardActions>
+        </Card>
+
+        <Card className={classes.root}>
           <CardActionArea href="https://spotifakeapp.netlify.app/" target="_blank" rel="noreferrer">
             <CardMedia
               className={classes.media}
