@@ -1,4 +1,4 @@
-import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, makeStyles, Typography } from "@material-ui/core";
+import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, makeStyles, Typography } from "@material-ui/core";
 import Carousel from "react-material-ui-carousel";
 import Icons from "./Icons";
 
@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   },
   media: {
     height: 140,
-    
+    color: "inherit"
   },
 });
 
@@ -49,7 +49,7 @@ export default function MediaCard() {
         </Card>
 
 
-        <Card className={classes.root}>
+        <Card className={classes.root} style={{ alignItems: "center", justifySelf: "center", gridColumn: '2/3' }}>
           <CardActionArea href="https://www.loom.com/share/ae32b2c14e004e6cb2c520a508f7362b" target="_blank" rel="noreferrer">
             <CardMedia
               className={classes.media}
@@ -61,7 +61,7 @@ export default function MediaCard() {
                 Pokemon Battle Royale
           </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Pokemon Battle Royale is an application that allows users to purchase Pokemon and battle an AI. Collaborated with other engineers for Powered by ReactJS, ReduxJS, Ruby On Rails, Google Firebase and more!
+                Pokemon Battle Royale is an application that allows users to purchase Pokemon and battle an AI. Collaborated with other engineers for this project. Powered by ReactJS, ReduxJS, Ruby On Rails, Google Firebase and more!
           </Typography>
             </CardContent>
           </CardActionArea>
@@ -72,7 +72,7 @@ export default function MediaCard() {
           </CardActions>
         </Card>
 
-        <Card className={classes.root}>
+        <Card className={classes.root} style={{ alignItems: "center", justifySelf: "center", gridColumn: '2/3' }}>
           <CardActionArea href="https://spotifakeapp.netlify.app/" target="_blank" rel="noreferrer">
             <CardMedia
               className={classes.media}
@@ -95,13 +95,14 @@ export default function MediaCard() {
           </CardActions>
         </Card>
 
-        <Card className={classes.root}>
+        <Card className={classes.root} style={{ alignItems: "center", justifySelf: "center", gridColumn: '2/3' }}>
           <CardActionArea href="https://gitjobs2.herokuapp.com/login" target="_blank" rel="noreferrer">
             <CardMedia
               className={classes.media}
               image={process.env.PUBLIC_URL + "usain_git.png"}
               title="GitJobs"
               color="inherit"
+              display="block"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
