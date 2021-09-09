@@ -10,7 +10,7 @@ const About = () => {
                 <h1>Ryan Erricson</h1>
                 <h4>Active Learner, Full Stack Engineer</h4>
                 <p><b>Currently Open To Work!</b></p>
-                <p>Welcome to my site. I'm a coffee powered full stack engineer who currently specializes in <b>JavaScript/ReactJS</b> and <b>Ruby/Ruby On Rails</b>.
+                <p>Welcome to my site. I'm a coffee powered full stack engineer who currently specializes in <b>JavaScript/ReactJS</b> and <b>Ruby/Ruby On Rails</b>. A graduate of Flatiron School and the University of Rhode Island, I am currently learning NodeJS and Express development.
             I am passionate about creating dynamic applications that solve issues in people's lives (see my projects!) and have a strong focus on crafting user experiences.
             Currently living in the Boston area. When I'm not coding I typically spend my time hiking, going home to get to the beach or watching one of Arsenal FC or the Pittsburgh Steelers.<br /><br />
             Looking for a developer with a high apititude for problem solving and an appetite for learning? Look no further.</p>
