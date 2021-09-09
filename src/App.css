@@ -324,3 +324,11 @@ svg {
     margin: auto 5%;
   }
 }
+
+i.devicon-nodejs-plain {
+  color: rgba(96, 190, 134)
+}
+
+i.devicon-express-original {
+  color: rgba(96, 190, 134)
+}
